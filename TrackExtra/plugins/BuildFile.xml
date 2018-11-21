@@ -1,0 +1,19 @@
+<use   name="DQMServices/Core"/>
+<use   name="DataFormats/Common"/>
+<use   name="DataFormats/GsfTrackReco"/>
+<use   name="FWCore/Framework"/>
+<use   name="FWCore/MessageLogger"/>
+<use   name="FWCore/ParameterSet"/>
+<use   name="SimGeneral/HepPDTRecord"/>
+<use   name="Geometry/CaloGeometry"/>
+<use   name="Geometry/EcalAlgo"/>
+<use   name="Geometry/CaloTopology"/>
+<use   name="FastSimulation/CaloGeometryTools"/>
+<use   name="FastSimulation/CaloHitMakers"/>
+<use   name="FastSimulation/Event"/>
+<use   name="DataFormats/ParticleFlowCandidate"/>
+<use   name="PhysicsTools/UtilAlgos"/>
+<flags CXXFLAGS="-g -O0"/> 
+<library   name="EcalTrackExtra" file="EcalTrackExtra.cc">
+  <flags   EDM_PLUGIN="1"/>
+</library>
